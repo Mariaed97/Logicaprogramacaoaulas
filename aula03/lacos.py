@@ -1,3 +1,4 @@
+
 '''
 Problema: crie um sistema que calcula o indice de massa corporal (IMC)
 do usuario, mostre o valor do IMC na tela, e retorne se o usuario esta
@@ -23,7 +24,7 @@ obesidade grau II
 
 acima disso
 obesidade grau III
-'''
+
 
 print(40*'-',"CALCULADORA DE IMC", 40*'-')
 
@@ -56,12 +57,14 @@ while True:
         break
     else: 
         print('Opção inválida')
+'''
 
 
-
+'''
 Problema 2: Um elevador de carga possui capacidade para 200kg. Crie um programa
 que receba do usuario seu peso e o peso da carga e verifica se a carga está autorizada 
 a usar o elevador ou não.
+'''
 
 limite = 200
 peso_pessoa = float(input('Digite seu peso: ').replace(',','.'))
@@ -97,7 +100,7 @@ while cont < 10:
     print('Contando...')
 '''
 
-
+'''
 
 #FIXME - Break - ele acaba com o loop e vai pro final do programa
 cont = 0
@@ -112,7 +115,7 @@ while cont < 15:
     print('contando')
 
 # a calculadora foi colocada em loop 
-
+'''
 
 print(40*'-',"CADASTRO DE USUÁRIO", 40*'-')
 nome = input('Digite seu nome: ')
@@ -209,8 +212,9 @@ while True:
 for n in range(5):
     print(n)
 # no terminal ele fai do 0 ao 4 (depende do n° que esta dentro do ())
-'''
+
 nome = 'Maria'
 
 for i in nome:
     print(i)
+''' 
